@@ -1,0 +1,6 @@
+gunicorn
+bottle
+cryptography
+requests
+six
+xmltodict

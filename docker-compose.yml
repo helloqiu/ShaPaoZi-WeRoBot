@@ -1,0 +1,9 @@
+app:
+  build: .
+
+werobot:
+  extends:
+    service: app
+  command: python app.py
+  restart: always
+  net: "host"
